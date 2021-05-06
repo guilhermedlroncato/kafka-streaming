@@ -164,7 +164,7 @@ services:
   postgres:
     image: postgres:13.2
     ports:
-      - 5433:5433
+      - 5433:5432
     hostname: postgres
     container_name: postgres
     environment: 
